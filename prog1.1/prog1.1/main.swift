@@ -18,6 +18,9 @@ func emojicode(word:String) -> String {
         return "\u{1F35F}"
     case "angry":
         return "\u{1F621}"
+    case "happy":
+        return "\u{1F621}"
+        
     default:
         return word
     }
